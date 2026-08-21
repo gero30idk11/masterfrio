@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===================== SEO BÁSICO ===================== -->
+<title>Master Frío | Climatización y Refrigeración en Lima</title>
+<meta name="description" content="Master Frío: soluciones profesionales en climatización, refrigeración residencial y comercial en Lima. Instalación, mantenimiento y reparación con garantía.">
+<meta name="keywords" content="master frio, climatizacion lima, refrigeracion residencial, refrigeracion comercial, mantenimiento aire acondicionado, reparacion refrigeradoras, tecnico frio lima">
+<meta name="author" content="Master Frío">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Master Frío | Climatización y Refrigeración">
+<meta property="og:description" content="Soluciones profesionales en climatización y refrigeración residencial y comercial.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logo master frio.svg">
+
+<link rel="icon" href="logo master frio.svg" type="image/svg+xml">
+
+<!-- Tipografías (Google Fonts) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--
+  ESTRUCTURA DE ARCHIVOS ESPERADA:
+  Todas las imágenes van en la misma carpeta que index.html, styles.css y script.js.
+
+  Logos / redes:
+    logo master frio.svg
+    Logo Whatsapp.svg
+    logo facebook.svg
+    logo tik tok.svg
+
+  Portadas de las tarjetas de servicio:
+    Tarjeta aire acondicionado.png
+    Tarjeta refrigeracion residencial.jpg
+    tarjeta refrigeracion comercial.webp
+
+  Carrusel horizontal del Hero:
+    1 Carrusel.jpg
+    2 Carrusel.jpg
+    3 Carrusel.jpg
+
+  Carrusel de equipos por categoría:
+    2 aire acondiocionado inverter.webp
+    3 aire acondiocionado inverter.webp
+    1 residencial frigobar.webp / 2 residencial frigobar.webp
+    residencial nevera.webp / 2 residencial nevera.webp / 3 residencial nevera.webp
+    1 comercial Visicooler Refrigerador Vitrina.webp
+    2 comercial Visicooler Refrigerador Vitrina.webp
+    3 comercial Visicooler Refrigerador Vitrina.webp
+
+  Reemplaza también los enlaces marcados como TODO (teléfono, dirección
+  y horario) por los datos reales del negocio.
+-->
+
+<!-- ===================== HEADER / NAV ===================== -->
+<header class="encabezado" id="encabezado">
+  <div class="contenedor barra-nav">
+    <a href="#inicio" class="marca">
+      <img src="logo master frio.svg" alt="Logotipo Master Frío" class="marca__logo">
+      <span class="marca__nombre">Master Frío</span>
+    </a>
+
+    <nav class="nav-principal" id="navPrincipal">
+      <ul class="nav-principal__lista">
+        <li><a href="#sobre-nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="nav-cta nav-cta--movil">
+        <a href="https://wa.me/51935619954" target="_blank" rel="noopener" class="boton boton--primario boton--bloque">Escribir por WhatsApp</a>
+      </div>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#contacto" class="boton boton--secundario">Contacto</a>
+      <a href="https://wa.me/51935619954" target="_blank" rel="noopener" class="boton boton--primario">Solicitar presupuesto</a>
+    </div>
+
+    <button class="boton-menu" id="botonMenu" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="inicio">
+
+  <!-- Carrusel de fondo -->
+  <div class="hero__fondo-carrusel" id="heroCarrusel" aria-hidden="true">
+    <div class="hero-carrusel__pista" id="heroCarruselPista">
+      <div class="hero-carrusel__slide">
+        <img src="1 Carrusel.jpg" alt="" loading="eager">
+      </div>
+      <div class="hero-carrusel__slide">
+        <img src="2 Carrusel.jpg" alt="" loading="lazy">
+      </div>
+      <div class="hero-carrusel__slide">
+        <img src="3 Carrusel.jpg" alt="" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <div class="hero__superposicion" aria-hidden="true"></div>
+  <div class="hero__escarcha" aria-hidden="true"></div>
+
+  <div class="contenedor hero__contenido">
+    <div class="hero__texto">
+      <img src="logo master frio.svg" alt="" class="hero__logo-flotante">
+      <h1 class="hero__titulo">Master <span>Frío</span></h1>
+      <p class="hero__eslogan">Soluciones profesionales en climatización y refrigeración, con la precisión de un equipo que domina el frío.</p>
+
+      <div class="hero__acciones">
+        <a href="#contacto" class="boton boton--primario">Contáctanos</a>
+      </div>
+
+      <div class="hero__indicadores">
+        <div>
+          <span class="indicador__valor" data-contador="12">0</span>
+          <span class="indicador__etiqueta">Años de experiencia</span>
+        </div>
+        <div>
+          <span class="indicador__valor" data-contador="600">0</span>
+          <span class="indicador__etiqueta">Equipos atendidos</span>
+        </div>
+        <div>
+          <span class="indicador__valor" data-contador="98">0</span>
+          <span class="indicador__etiqueta">% clientes satisfechos</span>
+        </div>
+      </div>
+
+      <div class="hero-carrusel__puntos" id="heroCarruselPuntos"></div>
+    </div>
+  </div>
+
+  <div class="hero__scroll"><span></span>Desliza</div>
+</section>
+
+<!-- ===================== SOBRE NOSOTROS ===================== -->
+<section class="seccion" id="sobre-nosotros">
+  <div class="contenedor sobre-nosotros__grid">
+    <div class="sobre-nosotros__texto revelar">
+      <span class="eyebrow">Sobre nosotros</span>
+      <h2 class="titulo-seccion">Experiencia técnica, trato cercano</h2>
+      <p>En Master Frío llevamos años resolviendo lo que otros complican: instalamos, reparamos y mantenemos equipos de climatización y refrigeración con la seriedad de una empresa consolidada y la cercanía de un equipo que responde cuando lo necesitas.</p>
+      <p>Cada visita técnica se hace con diagnóstico real, repuestos adecuados y explicación clara de lo que se hizo. Nuestro compromiso es simple: que el frío funcione, y que tú no tengas que pensar en eso.</p>
+
+      <ul class="valores-lista">
+        <li><span class="icono-check">✓</span> Experiencia comprobada</li>
+        <li><span class="icono-check">✓</span> Compromiso real</li>
+        <li><span class="icono-check">✓</span> Calidad garantizada</li>
+        <li><span class="icono-check">✓</span> Atención personalizada</li>
+        <li><span class="icono-check">✓</span> Responsabilidad</li>
+        <li><span class="icono-check">✓</span> Innovación constante</li>
+      </ul>
+    </div>
+
+    <div class="sobre-nosotros__panel revelar">
+      <div class="panel-stat">
+        <span class="panel-stat__num">+12</span>
+        <span class="panel-stat__label">años en el rubro de refrigeración y climatización</span>
+      </div>
+      <div class="panel-stat">
+        <span class="panel-stat__num">100%</span>
+        <span class="panel-stat__label">diagnóstico técnico antes de cada trabajo</span>
+      </div>
+      <div class="panel-stat">
+        <span class="panel-stat__num">Garantía</span>
+        <span class="panel-stat__label">en cada servicio realizado</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICIOS ===================== -->
+<section class="seccion seccion--clara" id="servicios">
+  <div class="contenedor">
+    <div class="cabecera-seccion revelar">
+      <span class="eyebrow">Servicios</span>
+      <h2 class="titulo-seccion">Todo lo que necesitas en climatización y refrigeración</h2>
+      <p class="subtitulo-seccion">Tres líneas de servicio pensadas para hogares y negocios, con el mismo estándar técnico en cada una.</p>
+    </div>
+
+    <div class="servicios__grid">
+
+      <!-- Climatización -->
+      <article class="tarjeta-servicio revelar">
+        <div class="tarjeta-servicio__media">
+          <img src="Tarjeta aire acondicionado.png" alt="Servicio de climatización Master Frío">
+        </div>
+        <div class="tarjeta-servicio__cuerpo">
+          <h3 class="tarjeta-servicio__titulo">Climatización</h3>
+          <p class="tarjeta-servicio__desc">Aire acondicionado instalado, mantenido y reparado por técnicos especializados, con foco en el consumo energético.</p>
+          <h4 class="tarjeta-servicio__beneficios-titulo">Incluye</h4>
+          <ul class="tarjeta-servicio__lista">
+            <li>Instalación de aire acondicionado</li>
+            <li>Mantenimiento preventivo y correctivo</li>
+            <li>Diagnóstico y limpieza profesional</li>
+            <li>Carga de refrigerante y reparación</li>
+            <li>Optimización del consumo energético</li>
+            <li>Asesoría técnica personalizada</li>
+          </ul>
+
+          <h4 class="tarjeta-servicio__beneficios-titulo">Beneficios para ti</h4>
+          <ul class="tarjeta-servicio__beneficios">
+            <li><span class="icono-check-mini">✓</span> Instalaciones bien selladas, sin fugas ni ruidos</li>
+            <li><span class="icono-check-mini">✓</span> Menor consumo eléctrico mes a mes</li>
+            <li><span class="icono-check-mini">✓</span> Mayor vida útil de tu equipo</li>
+            <li><span class="icono-check-mini">✓</span> Mantenimientos recurrentes sin sorpresas</li>
+          </ul>
+
+          <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20información%20sobre%20climatización" target="_blank" rel="noopener" class="boton boton--oscuro boton--bloque tarjeta-servicio__boton">Consultar por WhatsApp</a>
+        </div>
+      </article>
+
+      <!-- Refrigeración Residencial -->
+      <article class="tarjeta-servicio revelar">
+        <div class="tarjeta-servicio__media">
+          <img src="Tarjeta refrigeracion residencial.jpg" alt="Servicio de refrigeración residencial Master Frío">
+        </div>
+        <div class="tarjeta-servicio__cuerpo">
+          <h3 class="tarjeta-servicio__titulo">Refrigeración Residencial</h3>
+          <p class="tarjeta-servicio__desc">Refrigeradoras, frigobares, congeladores y freezers funcionando como el primer día.</p>
+          <h4 class="tarjeta-servicio__beneficios-titulo">Incluye</h4>
+          <ul class="tarjeta-servicio__lista">
+            <li>Refrigeradoras, frigobar y congeladores</li>
+            <li>Freezers y enfriadores domésticos</li>
+            <li>Mantenimiento preventivo y reparación</li>
+            <li>Cambio de repuestos</li>
+            <li>Detección de fugas y carga de gas</li>
+            <li>Diagnóstico electrónico</li>
+          </ul>
+
+          <h4 class="tarjeta-servicio__beneficios-titulo">Beneficios para ti</h4>
+          <ul class="tarjeta-servicio__beneficios">
+            <li><span class="icono-check-mini">✓</span> Menos pérdida de alimentos por fallas</li>
+            <li><span class="icono-check-mini">✓</span> Equipos más silenciosos y eficientes</li>
+            <li><span class="icono-check-mini">✓</span> Repuestos originales, sin improvisar</li>
+            <li><span class="icono-check-mini">✓</span> Mantenimientos preventivos programados</li>
+          </ul>
+
+          <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20información%20sobre%20refrigeración%20residencial" target="_blank" rel="noopener" class="boton boton--oscuro boton--bloque tarjeta-servicio__boton">Consultar por WhatsApp</a>
+        </div>
+      </article>
+
+      <!-- Refrigeración Comercial -->
+      <article class="tarjeta-servicio revelar">
+        <div class="tarjeta-servicio__media">
+          <img src="tarjeta refrigeracion comercial.webp" alt="Servicio de refrigeración comercial Master Frío">
+        </div>
+        <div class="tarjeta-servicio__cuerpo">
+          <h3 class="tarjeta-servicio__titulo">Refrigeración Comercial</h3>
+          <p class="tarjeta-servicio__desc">Vitrinas y equipos de exhibición con planes de mantenimiento pensados para negocios.</p>
+          <h4 class="tarjeta-servicio__beneficios-titulo">Incluye</h4>
+          <ul class="tarjeta-servicio__lista">
+            <li>Refrigeradoras y vitrinas de exhibición</li>
+            <li>Equipos comerciales en general</li>
+            <li>Mantenimiento preventivo y correctivo</li>
+            <li>Diagnóstico técnico y optimización</li>
+            <li>Reducción del consumo eléctrico</li>
+            <li>Planes de mantenimiento para negocios</li>
+          </ul>
+
+          <h4 class="tarjeta-servicio__beneficios-titulo">Beneficios para tu negocio</h4>
+          <ul class="tarjeta-servicio__beneficios">
+            <li><span class="icono-check-mini">✓</span> Menos pérdidas de mercadería refrigerada</li>
+            <li><span class="icono-check-mini">✓</span> Continuidad operativa, sin cortes inesperados</li>
+            <li><span class="icono-check-mini">✓</span> Cumplimiento de normas sanitarias</li>
+            <li><span class="icono-check-mini">✓</span> Planes de mantenimiento recurrentes</li>
+          </ul>
+
+          <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20información%20sobre%20refrigeración%20comercial" target="_blank" rel="noopener" class="boton boton--oscuro boton--bloque tarjeta-servicio__boton">Consultar por WhatsApp</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VITRINA DE EQUIPOS POR CATEGORÍA ===================== -->
+<!--
+  Carrusel vertical de una columna por categoría, en bucle continuo.
+  Cada imagen conserva su tamaño/proporción original (sin recorte).
+  Climatización tiene 2 fotos únicas; Refrigeración Residencial, 5;
+  Refrigeración Comercial, 3. Cada lista está repetida dos veces en el
+  HTML para que el desplazamiento sea continuo y sin salto visible.
+  Si me mandas más fotos por categoría, solo agrego más <img> a la pista.
+-->
+
+<!-- Climatización: carrusel a la izquierda -->
+<section class="categoria-equipos" id="equipos-climatizacion">
+  <div class="contenedor categoria-equipos__grid revelar">
+    <div class="categoria-equipos__carrusel">
+      <div class="marquee-col">
+        <div class="marquee-col__pista">
+          <img src="2 aire acondiocionado inverter.webp" alt="Aire acondicionado inverter instalado por Master Frío">
+          <img src="3 aire acondiocionado inverter.webp" alt="Aire acondicionado inverter instalado por Master Frío">
+          <img src="2 aire acondiocionado inverter.webp" alt="" aria-hidden="true">
+          <img src="3 aire acondiocionado inverter.webp" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </div>
+
+    <div class="categoria-equipos__info">
+      <span class="eyebrow">Climatización</span>
+      <h3 class="titulo-seccion">Equipos que instalamos y mantenemos</h3>
+      <p>Trabajamos con equipos de aire acondicionado de distintas capacidades y marcas, adaptados al espacio y al uso que le vas a dar.</p>
+      <ul class="categoria-equipos__lista">
+        <li><span class="icono-check">✓</span> Splits inverter y convencionales</li>
+        <li><span class="icono-check">✓</span> Equipos residenciales y de oficina</li>
+        <li><span class="icono-check">✓</span> Instalación certificada y mantenimiento programado</li>
+      </ul>
+      <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20cotizar%20un%20equipo%20de%20climatización" target="_blank" rel="noopener" class="boton boton--oscuro">Cotiza tu equipo de climatización</a>
+    </div>
+  </div>
+</section>
+
+<!-- Refrigeración Residencial: carrusel a la derecha -->
+<section class="categoria-equipos" id="equipos-residencial">
+  <div class="contenedor categoria-equipos__grid categoria-equipos__grid--imagen-der revelar">
+    <div class="categoria-equipos__carrusel">
+      <div class="marquee-col">
+        <div class="marquee-col__pista">
+          <img src="1 residencial frigobar.webp" alt="Frigobar residencial instalado por Master Frío">
+          <img src="2 residencial frigobar.webp" alt="Frigobar residencial instalado por Master Frío">
+          <img src="2 residencial nevera.webp" alt="Refrigeradora residencial instalada por Master Frío">
+          <img src="3 residencial nevera.webp" alt="Refrigeradora residencial instalada por Master Frío">
+          <img src="residencial nevera.webp" alt="Refrigeradora residencial instalada por Master Frío">
+          <img src="1 residencial frigobar.webp" alt="" aria-hidden="true">
+          <img src="2 residencial frigobar.webp" alt="" aria-hidden="true">
+          <img src="2 residencial nevera.webp" alt="" aria-hidden="true">
+          <img src="3 residencial nevera.webp" alt="" aria-hidden="true">
+          <img src="residencial nevera.webp" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </div>
+
+    <div class="categoria-equipos__info">
+      <span class="eyebrow">Refrigeración Residencial</span>
+      <h3 class="titulo-seccion">Equipos para el día a día en casa</h3>
+      <p>Refrigeradoras, frigobares, congeladores y freezers: te ayudamos a elegir, instalar y mantener el equipo correcto para tu hogar.</p>
+      <ul class="categoria-equipos__lista">
+        <li><span class="icono-check">✓</span> Refrigeradoras y frigobares de distintas capacidades</li>
+        <li><span class="icono-check">✓</span> Congeladores y freezers domésticos</li>
+        <li><span class="icono-check">✓</span> Repuestos originales y diagnóstico electrónico</li>
+      </ul>
+      <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20cotizar%20un%20equipo%20de%20refrigeración%20residencial" target="_blank" rel="noopener" class="boton boton--oscuro">Cotiza tu equipo residencial</a>
+    </div>
+  </div>
+</section>
+
+<!-- Refrigeración Comercial: carrusel a la izquierda -->
+<section class="categoria-equipos" id="equipos-comercial">
+  <div class="contenedor categoria-equipos__grid revelar">
+    <div class="categoria-equipos__carrusel">
+      <div class="marquee-col">
+        <div class="marquee-col__pista">
+          <img src="1 comercial Visicooler Refrigerador Vitrina.webp" alt="Visicooler comercial instalado por Master Frío">
+          <img src="2 comercial Visicooler Refrigerador Vitrina.webp" alt="Visicooler comercial instalado por Master Frío">
+          <img src="3 comercial Visicooler Refrigerador Vitrina.webp" alt="Visicooler comercial instalado por Master Frío">
+          <img src="1 comercial Visicooler Refrigerador Vitrina.webp" alt="" aria-hidden="true">
+          <img src="2 comercial Visicooler Refrigerador Vitrina.webp" alt="" aria-hidden="true">
+          <img src="3 comercial Visicooler Refrigerador Vitrina.webp" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </div>
+
+    <div class="categoria-equipos__info">
+      <span class="eyebrow">Refrigeración Comercial</span>
+      <h3 class="titulo-seccion">Equipos para tu negocio</h3>
+      <p>Vitrinas, refrigeradoras de exhibición y equipos comerciales, con planes de mantenimiento pensados para que tu operación no se detenga.</p>
+      <ul class="categoria-equipos__lista">
+        <li><span class="icono-check">✓</span> Vitrinas y refrigeradoras de exhibición</li>
+        <li><span class="icono-check">✓</span> Equipos comerciales de distinta capacidad</li>
+        <li><span class="icono-check">✓</span> Planes de mantenimiento recurrente para negocios</li>
+      </ul>
+      <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20cotizar%20un%20equipo%20de%20refrigeración%20comercial" target="_blank" rel="noopener" class="boton boton--oscuro">Cotiza tu equipo comercial</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== POR QUÉ ELEGIRNOS ===================== -->
+<section class="seccion" id="por-que-elegirnos">
+  <div class="contenedor">
+    <div class="cabecera-seccion revelar">
+      <span class="eyebrow">Por qué elegir Master Frío</span>
+      <h2 class="titulo-seccion">Lo que nos diferencia en cada servicio</h2>
+    </div>
+
+    <div class="ventajas__grid">
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></div>
+        <h3 class="ventaja__titulo">Atención rápida</h3>
+        <p class="ventaja__desc">Respuesta ágil ante cada solicitud, sin esperas innecesarias.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/></svg></div>
+        <h3 class="ventaja__titulo">Técnicos especializados</h3>
+        <p class="ventaja__desc">Profesionales capacitados en climatización y refrigeración.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 class="ventaja__titulo">Equipos modernos</h3>
+        <p class="ventaja__desc">Herramientas y técnicas actualizadas para cada diagnóstico.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/></svg></div>
+        <h3 class="ventaja__titulo">Garantía en el servicio</h3>
+        <p class="ventaja__desc">Cada trabajo realizado cuenta con garantía.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21v-6a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v6"/><circle cx="12" cy="7" r="4"/></svg></div>
+        <h3 class="ventaja__titulo">Soluciones personalizadas</h3>
+        <p class="ventaja__desc">Cada caso se atiende según su realidad, no con recetas genéricas.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg></div>
+        <h3 class="ventaja__titulo">Calidad garantizada</h3>
+        <p class="ventaja__desc">Repuestos y procedimientos que priorizan la durabilidad.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3 class="ventaja__titulo">Puntualidad</h3>
+        <p class="ventaja__desc">Cumplimos los horarios acordados en cada visita.</p>
+      </div>
+      <div class="ventaja revelar">
+        <div class="ventaja__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10Z"/></svg></div>
+        <h3 class="ventaja__titulo">Excelente atención</h3>
+        <p class="ventaja__desc">Comunicación clara antes, durante y después del servicio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESO DE TRABAJO ===================== -->
+<section class="seccion seccion--oscura" id="proceso">
+  <div class="contenedor">
+    <div class="cabecera-seccion revelar">
+      <span class="eyebrow">Proceso de trabajo</span>
+      <h2 class="titulo-seccion">De tu mensaje a la garantía, en cuatro pasos</h2>
+    </div>
+
+    <div class="proceso__linea">
+      <div class="paso revelar">
+        <div class="paso__num">01</div>
+        <h3 class="paso__titulo">Contacto</h3>
+        <p class="paso__desc">Nos escribes por WhatsApp y agendamos la visita.</p>
+      </div>
+      <div class="paso revelar">
+        <div class="paso__num">02</div>
+        <h3 class="paso__titulo">Diagnóstico</h3>
+        <p class="paso__desc">Revisamos el equipo e identificamos la causa real del problema.</p>
+      </div>
+      <div class="paso revelar">
+        <div class="paso__num">03</div>
+        <h3 class="paso__titulo">Reparación o instalación</h3>
+        <p class="paso__desc">Ejecutamos el trabajo con repuestos adecuados y buenas prácticas.</p>
+      </div>
+      <div class="paso revelar">
+        <div class="paso__num">04</div>
+        <h3 class="paso__titulo">Entrega y garantía</h3>
+        <p class="paso__desc">Te explicamos lo realizado y tu equipo queda con garantía.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REDES SOCIALES ===================== -->
+<section class="seccion seccion--oscura" id="redes">
+  <div class="contenedor">
+    <div class="cabecera-seccion revelar" style="align-items:center; text-align:center; margin:0 auto var(--space-lg); max-width:600px;">
+      <span class="eyebrow" style="margin-left:auto; margin-right:auto;">Síguenos</span>
+      <h2 class="titulo-seccion" style="max-width:600px; margin-left:auto; margin-right:auto;">Encuéntranos en redes sociales</h2>
+    </div>
+
+    <div class="redes__grid revelar">
+      <a href="https://www.facebook.com/share/1ETp9eHoLg/" target="_blank" rel="noopener" class="red-social">
+        <img src="logo facebook.svg" alt="Facebook">
+        <span>Facebook</span>
+      </a>
+      <a href="https://wa.me/51935619954" target="_blank" rel="noopener" class="red-social">
+        <img src="Logo Whatsapp.svg" alt="WhatsApp">
+        <span>WhatsApp</span>
+      </a>
+      <a href="https://www.tiktok.com/@masterfrio.lima?_r=1&_t=ZS-98MXf4Wlmy4" target="_blank" rel="noopener" class="red-social">
+        <img src="logo tik tok.svg" alt="TikTok">
+        <span>TikTok</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACTO ===================== -->
+<section class="seccion" id="contacto">
+  <div class="contenedor contacto__grid contacto__grid--simple">
+    <div class="revelar contacto__col">
+      <span class="eyebrow">Contacto</span>
+      <h2 class="titulo-seccion">Hablemos de tu equipo</h2>
+      <p class="subtitulo-seccion">Escríbenos por WhatsApp y te respondemos a la brevedad.</p>
+
+      <div class="contacto__info-lista">
+        <div class="contacto__item">
+          <div class="contacto__item-icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.4a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2Z"/></svg></div>
+          <div>
+            <div class="contacto__item-titulo">Teléfono / WhatsApp</div>
+            <!-- TODO: reemplazar por el número visible que quieras mostrar -->
+            <div class="contacto__item-desc">+51 935 619 954</div>
+          </div>
+        </div>
+        <div class="contacto__item">
+          <div class="contacto__item-icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-5.5 7-12a7 7 0 1 0-14 0c0 6.5 7 12 7 12Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <div class="contacto__item-titulo">Ubicación</div>
+            <!-- TODO: reemplazar por la dirección / zona real -->
+            <div class="contacto__item-desc">Lima, Perú</div>
+          </div>
+        </div>
+        <div class="contacto__item">
+          <div class="contacto__item-icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div>
+            <div class="contacto__item-titulo">Horario de atención</div>
+            <!-- TODO: reemplazar por el horario real -->
+            <div class="contacto__item-desc">Lunes a sábado, 8:00 am – 7:00 pm</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://wa.me/51935619954?text=Hola%2C%20quiero%20más%20información" target="_blank" rel="noopener" class="boton boton--primario contacto__cta">Escríbenos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie__grid">
+      <div>
+        <div class="pie__marca">
+          <img src="logo master frio.svg" alt="Logotipo Master Frío">
+          <span>Master Frío</span>
+        </div>
+        <p class="pie__desc">Soluciones profesionales en climatización y refrigeración residencial y comercial.</p>
+        <div class="pie__redes">
+          <a href="https://www.facebook.com/share/1ETp9eHoLg/" target="_blank" rel="noopener" aria-label="Facebook"><img src="logo facebook.svg" alt=""></a>
+          <a href="https://wa.me/51935619954" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="Logo Whatsapp.svg" alt=""></a>
+          <a href="https://www.tiktok.com/@masterfrio.lima?_r=1&_t=ZS-98MXf4Wlmy4" target="_blank" rel="noopener" aria-label="TikTok"><img src="logo tik tok.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div>
+        <div class="pie__titulo">Enlaces rápidos</div>
+        <ul class="pie__lista">
+          <li><a href="#sobre-nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="pie__titulo">Servicios</div>
+        <ul class="pie__lista">
+          <li><a href="#servicios">Climatización</a></li>
+          <li><a href="#servicios">Refrigeración residencial</a></li>
+          <li><a href="#servicios">Refrigeración comercial</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pie__inferior">
+      <span>© <span id="anioActual">2026</span> Master Frío. Todos los derechos reservados.</span>
+      <span>Hecho con precisión técnica.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/51935619954" target="_blank" rel="noopener" class="whatsapp-flotante" aria-label="Escribir por WhatsApp">
+  <img src="Logo Whatsapp.svg" alt="">
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
